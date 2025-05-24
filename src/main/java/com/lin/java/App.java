@@ -1,7 +1,9 @@
 package com.lin.java;
 import com.lin.java.models.*;
 import java.util.Scanner;
+
 // Aluna: Giovana Farias
+
 public class App {
   public static void main(String[] args) {
     Carro carro = new Carro("", "", 0, 0);
@@ -16,6 +18,7 @@ public class App {
       op = scan.nextInt();
 
       switch(op) {
+
         case 1:
           scan.nextLine(); // esses scans de vez em quando são para limpar o buffer ok!!
 
@@ -36,6 +39,7 @@ public class App {
           flag = 1;
 
           break;
+
         case 2:
           scan.nextLine();  
 
@@ -65,10 +69,12 @@ public class App {
           }
 
           break;
+
         case 0:
           op = 0;
           break;
       }
+
     } while (op != 0);
 
     scan.close();

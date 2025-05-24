@@ -6,6 +6,7 @@ public class Moto extends Veiculo {
     public String getTipoDeGuidao() {
         return tipoDeGuidao;
     }
+    
     public void setTipoDeGuidao(String tipoDeGuidao) {
         this.tipoDeGuidao = tipoDeGuidao;
     }
